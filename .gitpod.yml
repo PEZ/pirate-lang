@@ -1,8 +1,5 @@
 image:
   file: .gitpod.dockerfile
-tasks:
-  - init: lein deps
-    command: mkdir .shadow-cljs; echo 5555 > .shadow-cljs/socket-repl.port; lein repl
 
 vscode:
   extensions:
