@@ -23,6 +23,14 @@ They are major!
     * [ ] Croaks on something in the quick-pick menu handling
     * [ ] Croaks even if we avoid those (needs further investigation)
 
+### Starting the REPL manually
+
+To try out connect w/o Jack-in, you can start the REPL manually. In a GitPod terminal run:
+
+```sh
+$ clojure -Sdeps '{:deps {nrepl {:mvn/version "0.6.0"} cider/cider-nrepl {:mvn/version "0.23.0"}}}'  -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+```
+
 ### Settings for avoiding quick-pick jack-in/connect menues
 
 Put this in the `.vscode/settings.json` file to get past the problems with quick pick menues
