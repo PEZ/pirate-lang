@@ -1,4 +1,4 @@
-(ns pez.pirate-lang
+(ns pez.pirate-talk
   (:require [clojure.string :as string]))
 
 (def english-o {:alphabet    "abcdefghijklmnopqrstuvwxyz"
