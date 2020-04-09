@@ -1,42 +1,53 @@
-# fresh-deps
+# Calva in GitPod
 
-FIXME: description
+This is a test/demo project for using [Calva](https://github.com/BetterThanTomorrow/calva) in [GitPod](https://gitpod.io) (a [Theia](http://www.theia-ide.org) based code editor for the Cloud).
+
+Utilizing that Theia is very [VS Code](https://code.visualstudio.com) Extensions compatible, this project comes with [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva) built in.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+There is no installation! Just open the repo root with this link: https://gitpod.io/#https://github.com/PEZ/pirate-lang
 
 ## Usage
 
-FIXME: explanation
+Then hack away. Or, in theory, that is the case. There are currentlly some major blockers. Among those that you can't connect to a REPL server. 😭
 
-Run the project directly:
+## Blockers
 
-    $ clj -m pez.fresh-deps
+They are major!
 
-Run the project's tests (they'll fail until you edit them):
+* [ ] No Jack-in
+    * [ ] Croaks on something in the quick-pick menu handling
+    * [ ] Croaks even if we avoid those (needs further investigation)
+* [ ] No REPL Connect
+    * [ ] Croaks on something in the quick-pick menu handling
+    * [ ] Croaks even if we avoid those (needs further investigation)
 
-    $ clj -A:test:runner
+### Settings for avoiding quick-pick jack-in/connect menues
 
-## Options
+Put this in the `.vscode/settings.json` file to get past the problems with quick pick menues
+```json
+{
+    "calva.replConnectSequences": [
+        {
+            "name": "REPL",
+            "projectType": "Clojure CLI",
+            "cljsType": "none"
+        }
+    ]
+}
+```
 
-FIXME: listing of options this app accepts.
+## What Works
 
-## Examples
+Pretty much everything else weorks as far as I know:
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+* [x] Syntax higlighting
+* [x] Calva Highlight (Rainbow parens, comment and ignore highlight, paren matching highlight, etcetera)
+* [x] [Paredit](https://calva.readthedocs.io/en/latest/paredit.html)
+* [x] [Formatting](https://calva.readthedocs.io/en/latest/formatting.html)
+* [x] clj-kondo (Well, that is its own extension, also installed in this workspace)
 
 ## License
 
-Copyright © 2019 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+The code in this project is open and free as in beer.
