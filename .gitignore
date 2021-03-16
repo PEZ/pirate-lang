@@ -12,3 +12,6 @@ pom.xml.asc
 .hgignore
 .hg/
 words-alpha.txt
+.clj-kondo/
+.lsp/
+.calva/output-window/

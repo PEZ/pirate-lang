@@ -11,7 +11,7 @@ Utilizing that Theia is very [VS Code](https://code.visualstudio.com) Extensions
 1. Open this link: https://gitpod.io/#https://github.com/PEZ/pirate-lang
 1. Hack away.
 
-Or, in theory, that is the case. There are currentlly some major blockers. Among those that you can't connect to a REPL server. 😭
+Or, in theory, that is the case. There are currently some major blockers. Among those that you can't connect to a REPL server. 😭
 
 ## Blockers
 
