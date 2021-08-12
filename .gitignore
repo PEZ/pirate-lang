@@ -15,3 +15,4 @@ words-alpha.txt
 .clj-kondo/
 .lsp/
 .calva/output-window/
+.DS_Store
