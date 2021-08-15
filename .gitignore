@@ -9,10 +9,7 @@ pom.xml.asc
 /.lein-*
 /.nrepl-history
 /.nrepl-port
-.hgignore
-.hg/
 words-alpha.txt
 .clj-kondo/
-.lsp/
+.lsp/sqlite*.db
 .calva/output-window/
-.DS_Store
