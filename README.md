@@ -6,7 +6,7 @@ This is a test/demo project for using [Calva](https://github.com/BetterThanTomor
 
 **Installation**: Just kidding, there is no installation!
 
-1. Open this link: https://gitpod.io/#https://github.com/PEZ/pirate-lang
+1. Open this link: https://gitpod.io/from-referrer/
 1. Jack-in (choose the `deps.edn` project type).
 1. Hack away!
 
