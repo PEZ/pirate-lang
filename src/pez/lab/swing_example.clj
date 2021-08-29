@@ -1,6 +1,6 @@
 (ns pez.lab.swing-example
   (:import [javax.swing JFrame JPanel JLabel]
-          [java.awt FlowLayout]))
+           [java.awt FlowLayout]))
 
 (defn create-frame []
   (let [frame (new JFrame "My JFrame")
