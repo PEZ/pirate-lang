@@ -22,7 +22,11 @@ There's a small swing Hello World example in `src/pez/lab/swing_example.clj`. Yo
   (require 'clojure.inspector)
   (clojure.inspector/inspect (range 7))
 )
+```
 
+## New to Clojure?
+
+There is not much guidance in this repository for Clojure beginners. You might want to check out this guide first: https://calva.io/get-started-with-clojure/
 
 
 ## License
