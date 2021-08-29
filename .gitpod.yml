@@ -15,6 +15,8 @@ vscode:
 tasks:
   #- name: Fix blank swing window problem
   #  init: eval $(gp env JAVA_TOOL_OPTIONS=$JAVA_TOOL_OPTIONS -Dsun.java2d.xrender=false)
+  - name: Fix blank swing window problem
+    init: echo JAVA_TOOL_OPTIONS=\"$JAVA_TOOL_OPTIONS -Dsun.java2d.xrender=false\" >> /home/gitpod/.bashrc
   - name: Prepare deps
     init: clojure -P -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}'
   - name: Open README
