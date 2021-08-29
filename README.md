@@ -7,8 +7,12 @@ This is a test/demo project for using [Calva](https://github.com/BetterThanTomor
 **Installation**: Just kidding, there is no installation!
 
 1. Open this link: https://gitpod.io/#https://github.com/PEZ/pirate-lang
+   * This will open the repository in a Gitpod workspace in the browser. There will be an instance of VS Code and a VNC window there.
+   * _NB: If you don't have a Gitpod account, use the option to **Sign-up with GitHub**._
 1. Jack-in (choose the `deps.edn` project type).
+   In the VS Code instance open the VS Code command palette and use the command **Start a REPL in your Project and Connect (aka Jack-in)**.
 1. Hack away!
+   If this is all new and confusing, see **New to Clojure** below first. Even if you are not new to Clojure, that guide will introduce you to Calva enough to figure this project out.
 
 
 ### javax.swing Example
