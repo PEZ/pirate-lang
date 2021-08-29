@@ -1,4 +1,3 @@
-
 image:
   file: .gitpod.dockerfile
 
@@ -6,14 +5,21 @@ ports:
   - port: 5900
     onOpen: ignore
   - port: 6080
-    onOpen: open-browser
+    onOpen: open-preview
 
 vscode:
   extensions:
     - betterthantomorrow.calva
 
+
 tasks:
   - name: Prepare deps
     init: clojure -P -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}'
-  - name: README
+  - name: Fix blank swing window problem
+    init: export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dsun.java2d.xrender=false"
+  - name: Open README
     command: open -g README.md
+  - name: Echo done
+    command: echo "Tasks done"
+
+# source /home/gitpod/.bashrc # && mvn package && java -jar target/*with-dependencies.jar%
