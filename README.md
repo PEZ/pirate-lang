@@ -10,6 +10,21 @@ This is a test/demo project for using [Calva](https://github.com/BetterThanTomor
 1. Jack-in (choose the `deps.edn` project type).
 1. Hack away!
 
+
+### javax.swing Example
+
+When yuu start this as a Gitpod workspace, it automatically starts a VNC server, so that you can hack out desktup GUI apps. By default it opens a VNC viewer integrated in VS Code. You can pop it out to a separate browser window, if you like.
+
+There's a small swing Hello World example in `src/pez/lab/swing_example.clj`. You can also just do something like this to open a Swing window:
+
+```clojure
+(comment
+  (require 'clojure.inspector)
+  (clojure.inspector/inspect (range 7))
+)
+
+
+
 ## License
 
 The code in this project is open and free. 🍺🗽
