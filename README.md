@@ -2,6 +2,8 @@
 
 This is a test/demo project for using [Calva](https://github.com/BetterThanTomorrow/calva) in [GitPod](https://gitpod.io).
 
+https://user-images.githubusercontent.com/30010/131388132-0a60573f-5cdf-4c4a-9040-d7eb34cf625c.mp4
+
 ## Usage
 
 **Installation**: Just kidding, there is no installation!
