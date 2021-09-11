@@ -8,11 +8,13 @@ https://user-images.githubusercontent.com/30010/131388132-0a60573f-5cdf-4c4a-904
 
 **Installation**: Just kidding, there is no installation!
 
-1. Open this link: https://gitpod.io/#https://github.com/PEZ/pirate-lang
+1. Click the ”Use this Template” button, name and create your copy of this project.
+1. Reading this from your newly created copy? Awesome. Open this link: https://gitpod.io/from-referrer/
+   * <details><summary>Using Safari?</summary>Then the link probably won't work. Instead prepend the repository URL with `https://gitpod.io/#` and load that page.
    * This will open the repository in a Gitpod workspace in the browser. There will be an instance of VS Code and a VNC window there.
    * _NB: If you don't have a Gitpod account, use the option to **Sign-up with GitHub**._
-1. Jack-in (choose the `deps.edn` project type).
-   In the VS Code instance open the VS Code command palette and use the command **Start a REPL in your Project and Connect (aka Jack-in)**.
+1. In the VS Code instance open the VS Code command palette and use the command **Start a REPL in your Project and Connect (aka Jack-in)**.
+   * Choose the `deps.edn` project type.
 1. Hack away!
    If this is all new and confusing, see **New to Clojure** below first. Even if you are not new to Clojure, that guide will introduce you to Calva enough to figure this project out.
 
