@@ -6,10 +6,11 @@ This is a test/demo project for using [Calva](https://github.com/BetterThanTomor
 
 **Installation**: Just kidding, there is no installation!
 
-1. Click the ”Use this Template” button, name and create your copy of this project.
-1. Reading this from your newly created copy? Awesome. Open this link: https://gitpod.io/from-referrer/
+0. Optional: Copy or fork the project. To copy it, click the ”Use this Template” button.
+   * Reading this from your newly created fork/copy? Awesome. 
+1. Open this link: https://gitpod.io/from-referrer/
    * <details><summary>Using Safari?</summary>Then the link probably won't work. Instead prepend the repository URL with `https://gitpod.io/#` and load that page.
-   * This will open the repository in a Gitpod workspace in the browser. There will be an instance of VS Code and a VNC window there.
+   * This will open the repository in a Gitpod workspace in the browser. (Might take a little while.) There will be an instance of VS Code and a VNC window there.
    * _NB: If you don't have a Gitpod account, use the option to **Sign-up with GitHub**._
 1. In the VS Code instance open the VS Code command palette and use the command **Start a REPL in your Project and Connect (aka Jack-in)**.
    * Choose the `deps.edn` project type.
