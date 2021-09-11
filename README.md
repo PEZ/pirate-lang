@@ -2,8 +2,6 @@
 
 This is a test/demo project for using [Calva](https://github.com/BetterThanTomorrow/calva) in [GitPod](https://gitpod.io).
 
-https://user-images.githubusercontent.com/30010/131388132-0a60573f-5cdf-4c4a-9040-d7eb34cf625c.mp4
-
 ## Usage
 
 **Installation**: Just kidding, there is no installation!
@@ -18,10 +16,15 @@ https://user-images.githubusercontent.com/30010/131388132-0a60573f-5cdf-4c4a-904
 1. Hack away!
    If this is all new and confusing, see **New to Clojure** below first. Even if you are not new to Clojure, that guide will introduce you to Calva enough to figure this project out.
 
+## See a demo first?
+
+Fair enough!
+
+https://user-images.githubusercontent.com/30010/131388132-0a60573f-5cdf-4c4a-9040-d7eb34cf625c.mp4
 
 ### javax.swing Example
 
-When yuu start this as a Gitpod workspace, it automatically starts a VNC server, so that you can hack out desktup GUI apps. By default it opens a VNC viewer integrated in VS Code. You can pop it out to a separate browser window, if you like.
+When you start this as a Gitpod workspace, it automatically starts a VNC server, so that you can hack out desktup GUI apps. By default it opens a VNC viewer integrated in VS Code. You can pop it out to a separate browser window, if you like.
 
 There's a small swing Hello World example in `src/pez/lab/swing_example.clj`. You can also just do something like this to open a Swing window:
 
