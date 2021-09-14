@@ -6,10 +6,9 @@ This is a test/demo project for using [Calva](https://github.com/BetterThanTomor
 
 **Installation**: Just kidding, there is no installation!
 
-0. Optional: Copy or fork the project. To copy it, click the ”Use this Template” button.
-   * Reading this from your newly created fork/copy? Awesome. 
-1. Open this link: https://gitpod.io/from-referrer/
-   * <details><summary>Using Safari?</summary>Then the link probably won't work. Instead prepend the repository URL with `https://gitpod.io/#` and load that page.
+1. Click this button:
+   * <a title="Open Getting Started with Clojure in Gitpod" alt="Open in Gitpod button" href="https://gitpod.io/#https://github.com/PEZ/pirate-lang" target="_blank"><img src="https://img.shields.io/badge/Gitpod-Ready to Code-908a85?logo=gitpod" width="250"/></a>
+   * It links here: <a href="https://gitpod.io/#https://github.com/PEZ/pirate-lang">gitpod.io/#https://github.com/PEZ/pirate-lang</a>
    * This will open the repository in a Gitpod workspace in the browser. (Might take a little while.) There will be an instance of VS Code and a VNC window there.
    * _NB: If you don't have a Gitpod account, use the option to **Sign-up with GitHub**._
 1. In the VS Code instance open the VS Code command palette and use the command **Start a REPL in your Project and Connect (aka Jack-in)**.
