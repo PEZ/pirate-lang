@@ -4,8 +4,5 @@
         "cider-nrepl": "0.25.5",
         "cider/piggieback": "0.5.2",
         "clj-kondo": "2020.04.05"
-    },
-    "calva.jackInEnv": {
-        "foo": 100
     }
 }

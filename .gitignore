@@ -13,3 +13,4 @@ words-alpha.txt
 .clj-kondo/
 .lsp/sqlite*.db
 .calva/output-window/
+.lsp/.cache/

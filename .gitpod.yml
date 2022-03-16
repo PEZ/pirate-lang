@@ -1,7 +1,11 @@
-
 image:
   file: .gitpod.dockerfile
 
+ports:
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: open-preview
 
 vscode:
   extensions:
@@ -10,5 +14,5 @@ vscode:
 tasks:
   - name: Prepare deps
     init: clojure -P -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}'
-  - name: README
+  - name: Open README
     command: open -g README.md
